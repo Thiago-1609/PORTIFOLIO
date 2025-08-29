@@ -1,0 +1,21 @@
+body { 
+  font-family: 'Merriweather', serif; 
+} 
+
+:root { 
+  --cor-principal: rgb(255, 238, 0); 
+  --cor-secundaria: rgb(233, 129, 1);  
+  --cor-destaque: rgb(225, 45, 13); 
+} 
+
+h1, h2, h3, h4, h5, h6 { 
+  color: var(--cor-principal); 
+} 
+
+footer a { 
+  color: var(--cor-secundaria);  
+} 
+
+footer a:hover { 
+  color: var(--cor-destaque); 
+}
